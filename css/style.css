@@ -14,13 +14,17 @@ body {
 }
 
 .wrapper {
-  margin: 0 auto;
-  width: 60%;
-  padding-bottom: 40px;
+  margin-left: 100px;
+  padding-bottom: 10px;
 }
 
 #content {
-  padding: 20px;
+  padding: 40px;
+  border: 50px;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 70px;
   background: rgba(255,255,255,.85);
 }
 
@@ -83,4 +87,13 @@ a:hover {
   .wrapper {
     width: 95%;
   }
+}
+
+#whitehead {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  font-weight: bold;
 }
